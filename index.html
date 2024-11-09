@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="script.css">
+  <script src="project.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="container-two">
+    <div class="demo-container">
+      <div class="line-text-container">
+        <div class="line"></div>
+        <div class="text">YAY! It's BOGO</div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="option" data-units="1">
+      <div class="price-row ">
+        <div>
+          <input type="radio" name="units" id="unit1">
+          <label for="unit1" class="unit-one">1 Unit</label>
+          <span class="discount-tag">10% Off</span>
+          <div class="stand-text">Standard Price</div>
+        </div>
+        <div>
+          <div class="text-one">$10.00 USD</div>
+          <div class="text-three">$24.00 USD </div></div>
+       
+      </div>
+    
+    </div>
+
+    <div class="option most-popular" data-units="2">
+      <span class="most-popular-tag">MOST POPULAR</span>
+      <div class="price-row-two">
+        <div class="first">
+          <input type="radio" name="units" id="unit2" checked>
+          <label for="unit2"class="unit-one">2 Unit</label>
+          <span class="discount-tag">20% Off</span>
+        </div>
+        <div>
+          <div class="text-one">$18.00 USD</div>
+          <div class="text-three">$24.00 USD </div></div>
+       
+      </div>
+      <div class="variant-row">
+        <div class="first-three">
+          <label class="label-one">Size</label>
+          <select class="size">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select class="color">
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+          </select>
+        </div>
+        
+        <div class="first-three">
+          <label class="label-one">Colours</label>
+          <select class="size">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select class="color">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+          </select>
+        </div>
+      </div>
+      
+    </div>
+  <div class="option-three" data-units="3">
+      <div class="price-row ">
+        <div>
+          <input type="radio" name="units" id="unit3">
+          <label for="unit3" class="unit-one">3 Unit</label>
+          <span class="discount-tag">30% Off</span>
+        
+        </div>
+        <div>
+          <div class="text-one">$24.00 USD</div>
+          <div class="text-three">$24.00 USD </div></div>
+       
+      </div>
+    
+    </div>
+   
+      <div class="option-five"> 
+    
+      <div class="total">
+        <span class="free">Free Delivery</span>
+        <span class="total-one"> Total:$18.00 USD</span>
+      </div>
+  
+      <button class="add-to-cart"> + Add to Cart</button></div>
+      <div class="powered-by">@ Powered by Pumper</div>
+    </div>
+    </div>
+    <div id="successModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div class="success-icon">
+          <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="10" stroke="green" stroke-width="2" fill="none" />
+            <path d="M8 12.5L11 15.5L16 9.5" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <p>Item successfully added to cart!</p>
+      </div>
+    </div>
+    
+  </div>
+ 
+   
+  
+
+</body>
+</html>
